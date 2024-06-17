@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trirong", sans-serif;
+
+}
+ body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+ }
+
+
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: rgb(217, 202, 187);
+    box-shadow: 0 5px 10px black;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    background-color: rgb(153, 151, 148);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 6px;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+
+
+button {
+    
+    font-size: 20px;
+    padding: 10px;
+    background-color: #1b1919;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    color: #2f9fff;
+}
+  
+.buttons button:active{
+    transform: scale(1.07);
+
+}
+.operator{
+    color: #2f9fff;
+}
+.buttons button:hover{
+    color: rgb(136, 114, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
